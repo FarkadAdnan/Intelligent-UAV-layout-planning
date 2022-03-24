@@ -26,10 +26,13 @@ UAVS_Drone Intelligent UAV path planning simulation system is a software with fi
 
 ![1](https://user-images.githubusercontent.com/35774039/159815751-179eb8d7-5349-4367-9855-28ea4e5d7f92.jpg)
 # 2. Software Architecture (plug-ins to be implemented for some extended functions)
+```
 ![125012016-0ea2c380-e09c-11eb-9f04-5919bb37db61](https://user-images.githubusercontent.com/35774039/159815833-4486a26f-b262-4302-b2eb-1e993fb89c8b.png)
+```
 # 3. Code
+```
 ![2](https://user-images.githubusercontent.com/35774039/159815877-95f1934a-8702-4517-b136-8b8b7fb3bbe0.png)
-
+```
 
 
 
