@@ -86,7 +86,7 @@ drone_PathPlanning
 	│  │      utils.py
 	│  │      __init__.py
 	│  │          
-	│  ├─rrt_2D_路径优化效果图
+	│  ├─rrt_2D_
 	│  │      
 	│  ├─rrt_3D
 	│  │     ABIT_star3D.py
@@ -103,7 +103,7 @@ drone_PathPlanning
 	│  │     rrt_star3D.py
 	│  │     utils3D.py
 	│  │          
-	│  └─rrt_3D_室内避障效果图
+	│  └─rrt_3D_
 	│          
 	└─Search_based_Planning
 		├─algorithm_mission_Search2D
@@ -149,7 +149,7 @@ drone_PathPlanning
 		│     queueL.py
 		│     RTAAStar.py
 		│          
-		├─Search_2D_路径优化效果图
+		├─Search_2D_
 		│      
 		├─Search_3D
 		│     Anytime_Dstar3D.py
@@ -167,5 +167,21 @@ drone_PathPlanning
 		│          
 		└─Search_3D_
 ```
+# Outdoor obstacle avoidance
+Custom routes and obstacle areas
+rrt_2D Path optimization effect chart
+![116529610-c171db00-a90f-11eb-9506-8b2d7979d1f1](https://user-images.githubusercontent.com/35774039/159817489-e727f83b-0fc4-4bee-b6ba-e1f29495b488.png)
+![116529702-cf276080-a90f-11eb-951e-f6e5ccd3f7ab](https://user-images.githubusercontent.com/35774039/159817497-6f728ad4-3b7a-4314-92e4-59aee86dc325.png)
+# Indoor obstacle avoidance
+Because the internal structure has the characteristics of narrow space and many distractions, the degree of route planning at this time is more focused on the effect of three-dimensional obstacle avoidance, and the map is meaningless.
+![118637888-dd7ae500-b808-11eb-916b-530b1d8393ee](https://user-images.githubusercontent.com/35774039/159817578-bdca69a9-6b55-4802-b413-be9cb8d65b2f.gif)
+# rrt_3D_Indoor obstacle avoidance renderings
+![118637946-e966a700-b808-11eb-8006-f21af8f695be](https://user-images.githubusercontent.com/35774039/159817633-5ae0c8b9-413c-4f27-af6f-6687db218a69.png)
+![118637923-e4a1f300-b808-11eb-83f0-5c9137af4a1a](https://user-images.githubusercontent.com/35774039/159817639-edbe120e-9496-4024-aabd-8753ec2ed06c.png)
+![116529702-cf276080-a90f-11eb-951e-f6e5ccd3f7ab](https://user-images.githubusercontent.com/35774039/159817674-bfe92668-8769-46da-acd2-edd81bfcd147.png)
+![116529610-c171db00-a90f-11eb-9506-8b2d7979d1f1](https://user-images.githubusercontent.com/35774039/159817687-9a26cef0-6f72-400b-983c-6eef06f532d1.png)
+
+
+
 
 
